@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+a {
+    text-decoration: none;
+}
+
+/* ----------navbar------------ */
+#navbar {
+   position: sticky;
+   top: 0;
+
+}
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 5px 20px;
+}
+.nav-link {
+    color: white;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.nav-link:active,
+.nav-link:focus {
+    color: white;
+}
+.nav-link:hover {
+    color: white;
+}
+.navbar-brand {
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+}
+.navbar-brand:hover{color: white;}
+.nav-item {
+    padding: 0 10px;
+   
+}
+.bx-menu {
+    color: white;
+    font-size: 30px;
+}
+.navbar-toggler {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+
+}
+/* --------banner----------- */
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: white;
+    padding-top: 5%;
+   
+
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.play-btn img {
+    width: 45px;
+}
+.play-btn {
+    color: white;
+}
+.play-btn:hover {
+    color: white;
+}
+/* ---services------ */
+#services {
+    padding: 80px 0;
+}
+.service-img {
+    width: 25%;
+    margin-bottom: 20px;
+}
+.subsection-title {
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+}
+.section-heading {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 60px;
+   
+}
+.section-heading::before {
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 150px;
+    margin: auto;
+    display: block;
+    transform: translateY(40px);
+    border-radius: 10px;
+   
+}
+.services-btn {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 25px;
+}
+.services-btn:hover{
+    color: white;
+   
+}
+/* ------about us----- */
+#about-us {
+    padding:50px 0;
+    background-color: #f8f9fa;
+}
+#about-us ul i {
+    color: #7b1798;
+}
+#about-us ul i span {
+    color: black;
+}
+/* -------------testimonial---------- */
+
+#testimonial {
+    padding: 80px 0;
+}
+
+.user-profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.user-profile {
+    border-left: 4px solid #7b1798;
+    padding: 10px 25px;
+ 
+}
+.user-title {
+    font-weight: 600;
+    margin-top: 14px;
+}
+/* ---------social media---------- */
+#social-media {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+.social-media-icon a img {
+    width: 60px;
+    transition: 0.5s;
+}
+.social-media-icon a:hover img {
+    transform: translateY(-15px);
+}
+/* ---------footer------- */
+#footer {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+   
+}
+.footer-subheading {
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.footer-logo {
+    width: 150px;
+   
+}
+.footer-btn {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 10px 15px;
+    color: white;
+    
+}
+.form-control {
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 0 !important;
+    max-width: 250px;
+   
+}
+hr {
+    color: white;
+    text-align: center;
+  
+}
+
